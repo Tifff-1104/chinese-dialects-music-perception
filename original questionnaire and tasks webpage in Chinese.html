@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://tiffany.runxiyu.org/dialect-survey/ -->
+<html lang="zh"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>方言背景对音乐感知与音乐学习能力的影响：实验问卷</title>
+	<style>
+/*
+:root {
+	--color-bg-body: #f8f8f8;
+	--color-text-main: #333;
+	--color-heading: hsl(86, 27%, 24%);
+	--color-bg-form: #fff;
+	--color-shadow: hsla(0, 0%, 0%, 0.1);
+	--color-button-bg: hsl(92, 69%, 53%);
+	--color-button-hover: hsl(92, 65%, 45%);
+	--color-border: #ddd;
+	--color-select-bg: hsla(86, 67%, 27%, 0.07);
+	--color-show-all-bg: hsl(92, 69%, 53%);
+	--color-show-all-text: #fff;
+	--color-label-bg: hsl(120, 8%, 94%);
+	--color-label-text: hsl(86, 27%, 24%);
+	--color-footer-text: #4f5c5d;
+}
+*/
+
+:root {
+	--color-bg-body: #f8f8f8;
+	--color-text-main: #333;
+	--color-heading: #2c3e50;
+	--color-bg-form: #fff;
+	--color-shadow: rgba(0, 0, 0, 0.1);
+	--color-button-bg: #3498db;
+	--color-button-hover: #2980b9;
+	--color-border: #ddd;
+	--color-select-bg: #55007711;
+	--color-show-all-bg: #3498db;
+	--color-show-all-text: #fff;
+	--color-label-bg: #ecf0f1;
+	--color-label-text: #2c3e50;
+	--color-footer-text: #4f5c5d;
+}
+
+/*
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-bg-body: #121212;
+		--color-text-main: #e0e0e0;
+		--color-heading: hsl(86, 27%, 75%);
+		--color-bg-form: #1e1e1e;
+		--color-shadow: hsla(0, 0%, 100%, 0.05);
+		--color-button-bg: hsl(92, 69%, 40%);
+		--color-button-hover: hsl(92, 65%, 35%);
+		--color-border: #444;
+		--color-select-bg: hsla(86, 67%, 60%, 0.08);
+		--color-show-all-bg: hsl(92, 69%, 40%);
+		--color-show-all-text: #fff;
+		--color-label-bg: hsl(120, 5%, 20%);
+		--color-label-text: hsl(86, 27%, 75%);
+		--color-footer-text: #a0b0a2;
+	}
+	img {
+		filter: invert(1) brightness(1.15) contrast(0.765);
+	}
+}
+*/
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-bg-body: #121212;
+		--color-text-main: #e0e0e0;
+		--color-heading: #a9cde6;
+		--color-bg-form: #1e1e1e;
+		--color-shadow: rgba(255, 255, 255, 0.05);
+		--color-button-bg: #3498db;
+		--color-button-hover: #2980b9;
+		--color-border: #444;
+		--color-select-bg: rgba(85, 0, 119, 0.1);
+		--color-show-all-bg: #3498db;
+		--color-show-all-text: #fff;
+		--color-label-bg: #2c3e50;
+		--color-label-text: #ecf0f1;
+		--color-footer-text: #a0b0b5;
+	}
+
+	img {
+		filter: invert(1) brightness(1.15) contrast(0.765);
+	}
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: var(--color-bg-body);
+	color: var(--color-text-main);
+	line-height: 1.6;
+	margin: 0;
+	padding: 0 15px;
+}
+h1, h2 {
+	color: var(--color-heading);
+}
+form {
+	background-color: var(--color-bg-form);
+	padding: 20px;
+	margin: 20px auto;
+	max-width: 900px;
+	box-shadow: 0 0 10px var(--color-shadow);
+	border-radius: 5px;
+}
+p {
+	margin-bottom: 10px;
+}
+label {
+	display: inline-block;
+	margin: 5px 0;
+}
+input[type="text"] {
+	margin-left: 5px;
+	padding: 5px;
+	width: 150px;
+}
+audio {
+	display: inline-block;
+	border-radius: 0;
+	vertical-align: middle;
+	padding: 0px;
+	border: 0;
+	background-color: var(--color-bg-form);
+	color: black;
+}
+ol {
+	padding-left: 20px;
+}
+ol li {
+	margin-bottom: 20px;
+}
+button[type="submit"] {
+	background-color: var(--color-button-bg);
+	color: var(--color-show-all-text);
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+button[type="submit"]:hover {
+	background-color: var(--color-button-hover);
+}
+br {
+	line-height: 1.5;
+}
+table {
+	border-collapse: collapse;
+	margin: 20px 0;
+	font-size: 16px;
+	background-color: var(--color-bg-form);
+}
+table th,
+table td {
+	border: 1px solid var(--color-border);
+	padding: 0px 0.75rem;
+	vertical-align: middle;
+}
+table td audio {
+	margin: 0;
+}
+table td:has(audio:only-child),
+table td:has(input:only-child) {
+	padding: 0;
+}
+table td input[type="text"]:only-child {
+	margin: 0;
+	border: 0;
+	height: 100%;
+}
+table td label:only-child {
+	margin: 0rem 0.5rem;
+}
+table td select:only-child {
+}
+input[name="section"],
+input[name="show-all-pages"] {
+	display: none;
+}
+table td select:only-child {
+	padding: 0 0.75rem;
+	margin: 0;
+	border: none;
+	outline: none;
+	width: 100%;
+	height: 100%;
+	background: var(--color-select-bg);
+	font: inherit;
+	color: inherit;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	cursor: pointer;
+}
+table td:has(select:only-child) {
+	padding: 0;
+	position: relative;
+}
+.page {
+	display: none;
+}
+#page0:checked ~ .form-wrapper form .page0,
+#page1:checked ~ .form-wrapper form .page1,
+#page2:checked ~ .form-wrapper form .page2,
+#page3:checked ~ .form-wrapper form .page3 {
+	display: block;
+}
+#show-all-pages:checked ~ .form-wrapper form .page {
+	display: block !important;
+}
+#show-all-pages:checked ~ .form-wrapper form .pagination-buttons {
+	display: none !important;
+}
+#show-all-pages:checked ~ .form-wrapper .show-all-pages-label {
+	background-color: var(--color-show-all-bg);
+	color: var(--color-show-all-text);
+	padding: 3px 6px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.show-all-pages-label {
+	background-color: var(--color-label-bg);
+	color: var(--color-label-text);
+	padding: 3px 6px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.pagination-buttons > label {
+	background-color: var(--color-show-all-bg);
+	color: var(--color-show-all-text);
+	padding: 3px 6px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+footer {
+	max-width: 900px;
+	margin: 20px auto;
+	font-size: 10px;
+	color: var(--color-footer-text);
+	line-height: 1.2;
+}
+footer a,
+footer a:link,
+footer a:visited {
+	color: var(--color-footer-text);
+}
+.dialect-option .opyf {
+	display: none;
+}
+#r_wuyu:checked ~ .opyf {
+	display: inline-block;
+}
+#r_guanhua:checked ~ .opyf {
+	display: inline-block;
+}
+#r_other:checked ~ .opyf {
+	display: inline-block;
+}
+.needed {
+	color: red;
+}
+	</style>
+	<script>
+		/*
+		 * Yes yes I know you can bypass this by not running JS and it
+		 * should be also patently clear that this entire page was
+		 * designed with non-JS users in mind (otherwise who would use
+		 * CSS state machines for pagination). I mean you could also
+		 * just right click on the audio and copy the URL and visit
+		 * it directly and no script could stop you from playing it...
+		 * these aren't really in our threat model :)
+		 */
+		document.addEventListener('DOMContentLoaded', () => {
+			document.querySelectorAll('audio.once').forEach(audio => {
+				audio.addEventListener('play', function handler() {
+					audio.removeEventListener('play', handler);
+					audio.onplay = e => {
+						e.preventDefault();
+						audio.pause();
+						audio.currentTime = 0;
+		
+						const warning = document.createElement('div');
+						warning.textContent = '不能重复播放';
+		
+						audio.replaceWith(warning);
+					};
+				});
+			});
+			document.querySelectorAll('.pagination-buttons > label').forEach(label => {
+				label.addEventListener('click', () => {
+					document.getElementById('scroll-target').scrollIntoView({
+						block: 'start'
+					});
+				});
+			});
+		});
+	</script>
+<style type="text/css">@font-face {
+  font-family: "xm-iconfont";
+  src: url('//at.alicdn.com/t/font_792691_ptvyboo0bno.eot?t=1574048839056');
+  /* IE9 */
+  src: url('//at.alicdn.com/t/font_792691_ptvyboo0bno.eot?t=1574048839056#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('data:application/x-font-woff2;charset=utf-8;base64,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') format('woff2'), url('//at.alicdn.com/t/font_792691_ptvyboo0bno.woff?t=1574048839056') format('woff'), url('//at.alicdn.com/t/font_792691_ptvyboo0bno.ttf?t=1574048839056') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */ url('//at.alicdn.com/t/font_792691_ptvyboo0bno.svg?t=1574048839056#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+.xm-iconfont {
+  font-family: "xm-iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.xm-icon-quanxuan:before {
+  content: "\e62c";
+}
+.xm-icon-caidan:before {
+  content: "\e610";
+}
+.xm-icon-fanxuan:before {
+  content: "\e837";
+}
+.xm-icon-pifu:before {
+  content: "\e668";
+}
+.xm-icon-qingkong:before {
+  content: "\e63e";
+}
+.xm-icon-sousuo:before {
+  content: "\e600";
+}
+.xm-icon-danx:before {
+  content: "\e62b";
+}
+.xm-icon-duox:before {
+  content: "\e613";
+}
+.xm-icon-close:before {
+  content: "\e601";
+}
+.xm-icon-expand:before {
+  content: "\e641";
+}
+.xm-icon-banxuan:before {
+  content: "\e60d";
+}
+</style><style type="text/css">@-webkit-keyframes xm-upbit {
+  from {
+    -webkit-transform: translate3d(0, 30px, 0);
+    opacity: 0.3;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+@keyframes xm-upbit {
+  from {
+    transform: translate3d(0, 30px, 0);
+    opacity: 0.3;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+xm-select {
+  background-color: #FFF;
+  position: relative;
+  border: 1px solid #E6E6E6;
+  border-radius: 2px;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+}
+xm-select * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+xm-select:hover,
+xm-select:focus {
+  border-color: #C0C4CC;
+}
+xm-select > .xm-tips {
+  color: #999999;
+  padding: 0 10px;
+  position: absolute;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+xm-select > .xm-icon {
+  display: inline-block;
+  overflow: hidden;
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: 10px;
+  top: 50%;
+  margin-top: -3px;
+  cursor: pointer;
+  border: 6px dashed transparent;
+  border-top-color: #C2C2C2;
+  border-top-style: solid;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+xm-select > .xm-icon-expand {
+  margin-top: -9px;
+  transform: rotate(180deg);
+}
+xm-select > .xm-label.single-row {
+  position: absolute;
+  top: 0;
+  bottom: 0px;
+  left: 0px;
+  right: 30px;
+  overflow: auto hidden;
+}
+xm-select > .xm-label.single-row .scroll {
+  overflow-y: hidden;
+}
+xm-select > .xm-label.single-row .label-content {
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+xm-select > .xm-label.auto-row .label-content {
+  flex-wrap: wrap;
+  padding-right: 30px !important;
+}
+xm-select > .xm-label.auto-row .xm-label-block > span {
+  white-space: unset;
+  height: 100%;
+}
+xm-select > .xm-label .scroll .label-content {
+  display: flex;
+  padding: 3px 10px;
+}
+xm-select > .xm-label .xm-label-block {
+  display: flex;
+  position: relative;
+  padding: 0px 5px;
+  margin: 2px 5px 2px 0;
+  border-radius: 3px;
+  align-items: baseline;
+  color: #FFF;
+}
+xm-select > .xm-label .xm-label-block > span {
+  display: flex;
+  color: #FFF;
+  white-space: nowrap;
+}
+xm-select > .xm-label .xm-label-block > i {
+  color: #FFF;
+  margin-left: 8px;
+  font-size: 12px;
+  cursor: pointer;
+  display: flex;
+}
+xm-select > .xm-label .xm-label-block.disabled {
+  background-color: #C2C2C2 !important;
+  cursor: no-drop !important;
+}
+xm-select > .xm-label .xm-label-block.disabled > i {
+  cursor: no-drop !important;
+}
+xm-select > .xm-body {
+  position: absolute;
+  left: 0;
+  top: 42px;
+  padding: 5px 0;
+  z-index: 999;
+  width: 100%;
+  min-width: fit-content;
+  border: 1px solid #E6E6E6;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+  animation-name: xm-upbit;
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+}
+xm-select > .xm-body .scroll-body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+xm-select > .xm-body .scroll-body::-webkit-scrollbar {
+  width: 8px;
+}
+xm-select > .xm-body .scroll-body::-webkit-scrollbar-track {
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  -ms-border-radius: 2em;
+  border-radius: 2em;
+  background-color: #FFF;
+}
+xm-select > .xm-body .scroll-body::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  -ms-border-radius: 2em;
+  border-radius: 2em;
+  background-color: #C2C2C2;
+}
+xm-select > .xm-body.up {
+  top: auto;
+  bottom: 42px;
+}
+xm-select > .xm-body.relative {
+  position: relative;
+  display: block !important;
+  top: 0;
+  box-shadow: none;
+  border: none;
+  animation-name: none;
+  animation-duration: 0;
+  min-width: 100%;
+}
+xm-select > .xm-body .xm-group {
+  cursor: default;
+}
+xm-select > .xm-body .xm-group-item {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0 10px;
+  color: #999;
+  font-size: 12px;
+}
+xm-select > .xm-body .xm-option {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0 10px;
+  cursor: pointer;
+}
+xm-select > .xm-body .xm-option-icon {
+  color: transparent;
+  display: flex;
+  border: 1px solid #E6E6E6;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+}
+xm-select > .xm-body .xm-option-icon.xm-custom-icon {
+  color: unset;
+  border: unset;
+}
+xm-select > .xm-body .xm-option-icon-hidden {
+  margin-right: -10px;
+}
+xm-select > .xm-body .xm-option-icon.xm-icon-danx {
+  border-radius: 100%;
+}
+xm-select > .xm-body .xm-option-content {
+  display: flex;
+  position: relative;
+  padding-left: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  ;
+  width: calc(100% - 20px);
+}
+xm-select > .xm-body .xm-option.hide-icon .xm-option-content {
+  padding-left: 0;
+}
+xm-select > .xm-body .xm-option.selected.hide-icon .xm-option-content {
+  color: #FFF !important;
+}
+xm-select > .xm-body .xm-option .loader {
+  width: 0.8em;
+  height: 0.8em;
+  margin-right: 6px;
+  color: #C2C2C2;
+}
+xm-select > .xm-body .xm-select-empty {
+  text-align: center;
+  color: #999;
+}
+xm-select > .xm-body .disabled {
+  cursor: no-drop;
+}
+xm-select > .xm-body .disabled:hover {
+  background-color: #FFF;
+}
+xm-select > .xm-body .disabled .xm-option-icon {
+  border-color: #C2C2C2 !important;
+}
+xm-select > .xm-body .disabled .xm-option-content {
+  color: #C2C2C2 !important;
+}
+xm-select > .xm-body .disabled.selected > .xm-option-icon {
+  color: #C2C2C2 !important;
+}
+xm-select > .xm-body .xm-search {
+  background-color: #FFF !important;
+  position: relative;
+  padding: 0 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+xm-select > .xm-body .xm-search > i {
+  position: absolute;
+  color: ;
+}
+xm-select > .xm-body .xm-search-input {
+  border: none;
+  border-bottom: 1px solid #E6E6E6;
+  padding-left: 27px;
+  cursor: text;
+}
+xm-select > .xm-body .xm-paging {
+  padding: 0 10px;
+  display: flex;
+  margin-top: 5px;
+}
+xm-select > .xm-body .xm-paging > span:first-child {
+  border-radius: 2px 0 0 2px;
+}
+xm-select > .xm-body .xm-paging > span:last-child {
+  border-radius: 0 2px 2px 0;
+}
+xm-select > .xm-body .xm-paging > span {
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  vertical-align: middle;
+  margin: 0 -1px 0 0;
+  background-color: #fff;
+  color: #333;
+  font-size: 12px;
+  border: 1px solid #e2e2e2;
+  flex-wrap: nowrap;
+  width: 100%;
+  overflow: hidden;
+  min-width: 50px;
+}
+xm-select > .xm-body .xm-toolbar {
+  padding: 0 10px;
+  display: flex;
+  margin: -3px 0;
+  cursor: default;
+}
+xm-select > .xm-body .xm-toolbar .toolbar-tag {
+  cursor: pointer;
+  display: flex;
+  margin-right: 20px;
+  color: ;
+  align-items: baseline;
+}
+xm-select > .xm-body .xm-toolbar .toolbar-tag:hover {
+  opacity: 0.8;
+}
+xm-select > .xm-body .xm-toolbar .toolbar-tag:active {
+  opacity: 1;
+}
+xm-select > .xm-body .xm-toolbar .toolbar-tag > i {
+  margin-right: 2px;
+  font-size: 14px;
+}
+xm-select > .xm-body .xm-toolbar .toolbar-tag:last-child {
+  margin-right: 0;
+}
+xm-select > .xm-body .xm-body-custom {
+  line-height: initial;
+  cursor: default;
+}
+xm-select > .xm-body .xm-body-custom * {
+  box-sizing: initial;
+}
+xm-select > .xm-body .xm-tree {
+  position: relative;
+}
+xm-select > .xm-body .xm-tree-icon {
+  display: inline-block;
+  margin-right: 3px;
+  cursor: pointer;
+  border: 6px dashed transparent;
+  border-left-color: #C2C2C2;
+  border-left-style: solid;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  z-index: 2;
+  visibility: hidden;
+}
+xm-select > .xm-body .xm-tree-icon.expand {
+  margin-top: 3px;
+  margin-right: 5px;
+  margin-left: -2px;
+  transform: rotate(90deg);
+}
+xm-select > .xm-body .xm-tree-icon.xm-visible {
+  visibility: visible;
+}
+xm-select > .xm-body .xm-tree .left-line {
+  position: absolute;
+  left: 13px;
+  width: 0;
+  z-index: 1;
+  border-left: 1px dotted #c0c4cc !important;
+}
+xm-select > .xm-body .xm-tree .top-line {
+  position: absolute;
+  left: 13px;
+  height: 0;
+  z-index: 1;
+  border-top: 1px dotted #c0c4cc !important;
+}
+xm-select > .xm-body .xm-tree .xm-tree-icon + .top-line {
+  margin-left: 1px;
+}
+xm-select > .xm-body .scroll-body > .xm-tree > .xm-option > .top-line,
+xm-select > .xm-body .scroll-body > .xm-option > .top-line {
+  width: 0 !important;
+}
+xm-select > .xm-body .xm-cascader-box {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 5px 0;
+  border: 1px solid #E6E6E6;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+  margin: -1px;
+}
+xm-select > .xm-body .xm-cascader-box::before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-right-color: #E6E6E6;
+  top: 10px;
+  left: -12px;
+}
+xm-select > .xm-body .xm-cascader-box::after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-right-color: #fff;
+  top: 10px;
+  left: -11px;
+}
+xm-select > .xm-body .xm-cascader-scroll {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+xm-select > .xm-body.cascader {
+  width: unset;
+  min-width: unset;
+}
+xm-select > .xm-body.cascader .xm-option-content {
+  padding-left: 8px;
+}
+xm-select > .xm-body.cascader .disabled .xm-right-arrow {
+  color: #C2C2C2 !important;
+}
+xm-select > .xm-body.cascader .hide-icon.disabled .xm-right-arrow {
+  color: #999 !important;
+}
+xm-select .xm-input {
+  cursor: pointer;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #E6E6E6;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #FFF;
+  line-height: 1.3;
+  padding-left: 10px;
+  outline: 0;
+  user-select: text;
+  -ms-user-select: text;
+  -moz-user-select: text;
+  -webkit-user-select: text;
+}
+xm-select .dis {
+  display: none;
+}
+xm-select .loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+xm-select .loader {
+  border: 0.2em dotted currentcolor;
+  border-radius: 50%;
+  -webkit-animation: 1s loader linear infinite;
+  animation: 1s loader linear infinite;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  color: inherit;
+  vertical-align: middle;
+  pointer-events: none;
+}
+xm-select .xm-select-default {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
+  visibility: hidden;
+}
+xm-select .xm-select-disabled {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  cursor: no-drop;
+  z-index: 2;
+  opacity: 0.3;
+  background-color: #FFF;
+}
+xm-select .item--divided {
+  border-top: 1px solid #ebeef5;
+  width: calc(100% - 20px);
+  cursor: initial;
+}
+xm-select .xm-right-arrow {
+  position: absolute;
+  color: ;
+  right: 5px;
+  top: -1px;
+  font-weight: 700;
+  transform: scale(0.6, 1);
+}
+xm-select .xm-right-arrow::after {
+  content: '>';
+}
+xm-select[size='large'] {
+  min-height: 40px;
+  line-height: 40px;
+}
+xm-select[size='large'] .xm-input {
+  height: 40px;
+}
+xm-select[size='large'] .xm-label .scroll .label-content {
+  line-height: 34px;
+}
+xm-select[size='large'] .xm-label .xm-label-block {
+  height: 30px;
+  line-height: 30px;
+}
+xm-select[size='large'] .xm-body .xm-option .xm-option-icon {
+  height: 20px;
+  width: 20px;
+  font-size: 20px;
+}
+xm-select[size='large'] .xm-paging > span {
+  height: 34px;
+  line-height: 34px;
+}
+xm-select[size='large'] .xm-tree .left-line {
+  height: 100%;
+  bottom: 20px;
+}
+xm-select[size='large'] .xm-tree .left-line-group {
+  height: calc(100% - 40px);
+}
+xm-select[size='large'] .xm-tree .xm-tree-icon.xm-hidden + .top-line {
+  top: 19px;
+}
+xm-select[size='large'] .item--divided {
+  margin: 10px;
+}
+xm-select {
+  min-height: 36px;
+  line-height: 36px;
+}
+xm-select .xm-input {
+  height: 36px;
+}
+xm-select .xm-label .scroll .label-content {
+  line-height: 30px;
+}
+xm-select .xm-label .xm-label-block {
+  height: 26px;
+  line-height: 26px;
+}
+xm-select .xm-body .xm-option .xm-option-icon {
+  height: 18px;
+  width: 18px;
+  font-size: 18px;
+}
+xm-select .xm-paging > span {
+  height: 30px;
+  line-height: 30px;
+}
+xm-select .xm-tree .left-line {
+  height: 100%;
+  bottom: 18px;
+}
+xm-select .xm-tree .left-line-group {
+  height: calc(100% - 36px);
+}
+xm-select .xm-tree .xm-tree-icon.xm-hidden + .top-line {
+  top: 17px;
+}
+xm-select .item--divided {
+  margin: 9px;
+}
+xm-select[size='small'] {
+  min-height: 32px;
+  line-height: 32px;
+}
+xm-select[size='small'] .xm-input {
+  height: 32px;
+}
+xm-select[size='small'] .xm-label .scroll .label-content {
+  line-height: 26px;
+}
+xm-select[size='small'] .xm-label .xm-label-block {
+  height: 22px;
+  line-height: 22px;
+}
+xm-select[size='small'] .xm-body .xm-option .xm-option-icon {
+  height: 16px;
+  width: 16px;
+  font-size: 16px;
+}
+xm-select[size='small'] .xm-paging > span {
+  height: 26px;
+  line-height: 26px;
+}
+xm-select[size='small'] .xm-tree .left-line {
+  height: 100%;
+  bottom: 16px;
+}
+xm-select[size='small'] .xm-tree .left-line-group {
+  height: calc(100% - 32px);
+}
+xm-select[size='small'] .xm-tree .xm-tree-icon.xm-hidden + .top-line {
+  top: 15px;
+}
+xm-select[size='small'] .item--divided {
+  margin: 8px;
+}
+xm-select[size='mini'] {
+  min-height: 28px;
+  line-height: 28px;
+}
+xm-select[size='mini'] .xm-input {
+  height: 28px;
+}
+xm-select[size='mini'] .xm-label .scroll .label-content {
+  line-height: 22px;
+}
+xm-select[size='mini'] .xm-label .xm-label-block {
+  height: 18px;
+  line-height: 18px;
+}
+xm-select[size='mini'] .xm-body .xm-option .xm-option-icon {
+  height: 14px;
+  width: 14px;
+  font-size: 14px;
+}
+xm-select[size='mini'] .xm-paging > span {
+  height: 22px;
+  line-height: 22px;
+}
+xm-select[size='mini'] .xm-tree .left-line {
+  height: 100%;
+  bottom: 14px;
+}
+xm-select[size='mini'] .xm-tree .left-line-group {
+  height: calc(100% - 28px);
+}
+xm-select[size='mini'] .xm-tree .xm-tree-icon.xm-hidden + .top-line {
+  top: 13px;
+}
+xm-select[size='mini'] .item--divided {
+  margin: 7px;
+}
+.layui-form-pane xm-select {
+  margin: -1px -1px -1px 0;
+}
+</style></head>
+<body>
+	<input type="checkbox" name="show-all-pages" id="show-all-pages">
+	<input type="radio" name="section" id="page0" checked="">
+	<input type="radio" name="section" id="page1">
+	<input type="radio" name="section" id="page2">
+	<input type="radio" name="section" id="page3">
+	<div class="form-wrapper">
+	<form method="post" action="https://tiffany.runxiyu.org/dialect-survey/submit">
+	<input type="hidden" name="form_version" value="2">
+	<h1>方言背景对音乐感知与音乐学习能力的影响：实验问卷</h1>
+	<p>您好！非常感谢您抽出宝贵时间参加本实验。</p>
+	<p>填写此份问卷即说明您同意将以下个人信息和测试得分作为实验数据供后续分析。我们将不会泄露您的个人信息。</p>
+	<p>为了音频能顺利播放，请使用电脑浏览器打开问卷链接。</p>
+	<p>如您在测试过程中感到不适可随时退出，您的数据将不会被记录。</p>
+	<p>感谢您的配合！</p>
+	<label for="show-all-pages" class="show-all-pages-label">显示所有页面</label>
+	<span id="scroll-target"></span>
+	<div class="page page0">
+
+		<p>您的年龄段？<span class="needed">*</span></p>
+		<label><input type="radio" name="age" value="18岁以下" required=""> 18 岁以下</label>
+		<label><input type="radio" name="age" value="18~25" required=""> 18–25</label>
+		<label><input type="radio" name="age" value="26~30" required=""> 26–30</label>
+		<label><input type="radio" name="age" value="31~40" required=""> 31–40</label>
+		<label><input type="radio" name="age" value="41~50" required=""> 41–50</label>
+		<label><input type="radio" name="age" value="51~60" required=""> 51–60</label>
+		<label><input type="radio" name="age" value="60以上" required=""> 60 以上</label>
+
+		<p>您的性别？</p>
+		<label><input type="radio" name="gender" value="男"> 男</label>
+		<label><input type="radio" name="gender" value="女"> 女</label>
+		<label><input type="radio" name="gender" value="其他"> 其他</label>
+
+		<p>您的母语方言是？只要您家中使用除标准普通话以外的方言，就填写相应的方言。如果完全不使用方言，填写“普通话”。<span class="needed">*</span></p>
+		<div class="dialect-option">
+			<input type="radio" name="dialect" id="r_wuyu" value="吴语" required="">
+			<label for="r_wuyu">吴语（江南地区，以上海话、苏州话、杭州话为代表）</label>
+			<input class="opyf" type="text" name="wuyu_details">
+		</div>
+		<div class="dialect-option">
+			<input type="radio" name="dialect" id="r_yueyu" value="粤语" required="">
+			<label for="r_yueyu">粤语（广东、广西皆有分布，以广府粤语为代表）</label>
+		</div>
+		<div class="dialect-option">
+			<input type="radio" name="dialect" id="r_guanhua" value="官话" required="">
+			<label for="r_guanhua">官话（普通话/江淮/西南/中原/东北...）</label>
+			<input class="opyf" type="text" name="guanhua_details">
+		</div>
+		<div class="dialect-option">
+			<input type="radio" name="dialect" id="r_other" value="其他" required="">
+			<label for="r_other">其他（如闽/湘/赣/客家）</label>
+			<input class="opyf" type="text" name="other_details">
+		</div>
+		<p>您使用方言的频率是？<span class="needed">*</span></p>
+		<label><input type="radio" name="usage_frequency" value="每天使用" required=""> 每天使用</label><br>
+		<label><input type="radio" name="usage_frequency" value="每周使用1-5次" required=""> 每周使用 1–5 次</label><br>
+		<label><input type="radio" name="usage_frequency" value="每月使用1-5次" required=""> 每月使用 1–5 次</label><br>
+		<label><input type="radio" name="usage_frequency" value="几乎不使用" required=""> 几乎不使用</label>
+
+		<p>您认为自己的方言流利程度是？<span class="needed">*</span></p>
+		<label><input type="radio" name="fluency" value="1" required=""> 1 听得懂但不会说</label>
+		<label><input type="radio" name="fluency" value="2" required=""> 2</label>
+		<label><input type="radio" name="fluency" value="3" required=""> 3</label>
+		<label><input type="radio" name="fluency" value="4" required=""> 4</label>
+		<label><input type="radio" name="fluency" value="5" required=""> 5 所有交流都可用方言完成</label>
+
+		<p>您是否学习过外国语言（如英语、日语等，不包含中文或汉语方言）？如有，学过多少门？<span class="needed">*</span></p>
+		<label><input type="radio" name="foreign_language" value="无" required=""> 无</label>
+		<label><input type="radio" name="foreign_language" value="1" required=""> 1</label>
+		<label><input type="radio" name="foreign_language" value="2" required=""> 2</label>
+		<label><input type="radio" name="foreign_language" value="3" required=""> 3</label>
+		<label><input type="radio" name="foreign_language" value="3门以上" required=""> 3 门以上</label>
+
+		<p>您是否接受过系统的音乐训练（学习乐器/作曲等）？如有，接受训练的时间是？<span class="needed">*</span></p>
+		<label><input type="radio" name="music_training" value="无" required=""> 无</label>
+		<label><input type="radio" name="music_training" value="1年以下" required=""> 1 年以下</label>
+		<label><input type="radio" name="music_training" value="1-3年" required=""> 1–3 年</label>
+		<label><input type="radio" name="music_training" value="3-5年" required=""> 3–5 年</label>
+		<label><input type="radio" name="music_training" value="5-10年" required=""> 5–10 年</label>
+		<label><input type="radio" name="music_training" value="10年以上" required=""> 10 年以上</label>
+
+		<p>您是否有绝对音感？<span class="needed">*</span></p>
+		<label><input type="radio" name="absolute_pitch" value="是" required=""> 是</label>
+		<label><input type="radio" name="absolute_pitch" value="否" required=""> 否</label>
+
+		<p>您平常听音乐的频率是？<span class="needed">*</span></p>
+		<label><input type="radio" name="music_freq" value="每天" required=""> 每天</label>
+		<label><input type="radio" name="music_freq" value="每周3-4次" required=""> 每周 3–4 次</label>
+		<label><input type="radio" name="music_freq" value="每周1-2次" required=""> 每周 1–2 次</label>
+		<label><input type="radio" name="music_freq" value="每月1-2次" required=""> 每月 1–2 次</label>
+		<label><input type="radio" name="music_freq" value="几乎不听" required=""> 几乎不听</label>
+
+		<div class="pagination-buttons">
+			<label for="page1">下一页</label>
+		</div>
+	</div>
+	<div class="page page1">
+		<div class="pagination-buttons">
+			<label for="page0">上一页</label>
+		</div>
+
+		<h2>任务 1: 请判断下列音频中的两条旋律/节奏是否相同。</h2>
+		<p>音频加载可能需要一些时间。</p>
+		<p>请注意，每一个音频只能听一遍。请先调试音量，至少让您能清晰地听见下面的测试音频。</p>
+		<table>
+			<tbody><tr><td>测试音频</td>
+			<td><audio controls="" src="audio/task_2_cadence/learning/Tonic_C.wav"></audio></td>
+		</tr></tbody></table>
+		<h3>旋律辨认测试</h3>
+		<table>
+			<thead>
+				<tr>
+					<th>序号</th>
+					<th>音频</th>
+					<th colspan="2">选项 <span class="needed">*</span></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>旋律 1</td>
+					<td><audio class="once" controls="" src="audio/task_1a_pitch_contour/01.wav"></audio></td>
+					<td><label><input type="radio" name="q1" value="相同" required=""> 相同</label></td>
+					<td><label><input type="radio" name="q1" value="不同" required=""> 不同</label></td>
+				</tr>
+				<tr>
+					<td>旋律 2</td>
+					<td><audio class="once" controls="" src="audio/task_1a_pitch_contour/02.wav"></audio></td>
+					<td><label><input type="radio" name="q2" value="相同" required=""> 相同</label></td>
+					<td><label><input type="radio" name="q2" value="不同" required=""> 不同</label></td>
+				</tr>
+				<tr>
+					<td>旋律 3</td>
+					<td><audio class="once" controls="" src="audio/task_1a_pitch_contour/03.wav"></audio></td>
+					<td><label><input type="radio" name="q3" value="相同" required=""> 相同</label></td>
+					<td><label><input type="radio" name="q3" value="不同" required=""> 不同</label></td>
+				</tr>
+				<tr>
+					<td>旋律 4</td>
+					<td><audio class="once" controls="" src="audio/task_1a_pitch_contour/04.wav"></audio></td>
+					<td><label><input type="radio" name="q4" value="相同" required=""> 相同</label></td>
+					<td><label><input type="radio" name="q4" value="不同" required=""> 不同</label></td>
+				</tr>
+				<tr>
+					<td>旋律 5</td>
+					<td><audio class="once" controls="" src="audio/task_1a_pitch_contour/05.wav"></audio></td>
+					<td><label><input type="radio" name="q5" value="相同" required=""> 相同</label></td>
+					<td><label><input type="radio" name="q5" value="不同" required=""> 不同</label></td>
+				</tr>
+				<tr>
+					<td>旋律 6</td>
+					<td><audio class="once" controls="" src="audio/task_1a_pitch_contour/06.wav"></audio></td>
+					<td><label><input type="radio" name="q6" value="相同" required=""> 相同</label></td>
+					<td><label><input type="radio" name="q6" value="不同" required=""> 不同</label></td>
+				</tr>
+				<tr>
+					<td>旋律 7</td>
+					<td><audio class="once" controls="" src="audio/task_1a_pitch_contour/07.wav"></audio></td>
+					<td><label><input type="radio" name="q7" value="相同" required=""> 相同</label></td>
+					<td><label><input type="radio" name="q7" value="不同" required=""> 不同</label></td>
+				</tr>
+				<tr>
+					<td>旋律 8</td>
+					<td><audio class="once" controls="" src="audio/task_1a_pitch_contour/08.wav"></audio></td>
+					<td><label><input type="radio" name="q8" value="相同" required=""> 相同</label></td>
+					<td><label><input type="radio" name="q8" value="不同" required=""> 不同</label></td>
+				</tr>
+				<tr>
+					<td>旋律 9</td>
+					<td><audio class="once" controls="" src="audio/task_1a_pitch_contour/09.wav"></audio></td>
+					<td><label><input type="radio" name="q9" value="相同" required=""> 相同</label></td>
+					<td><label><input type="radio" name="q9" value="不同" required=""> 不同</label></td>
+				</tr>
+				<tr>
+					<td>旋律 10</td>
+					<td><audio class="once" controls="" src="audio/task_1a_pitch_contour/10.wav"></audio></td>
+					<td><label><input type="radio" name="q10" value="相同" required=""> 相同</label></td>
+					<td><label><input type="radio" name="q10" value="不同" required=""> 不同</label></td>
+				</tr>
+			</tbody>
+		</table>
+		<h3>节奏辨认测试</h3>
+		<table>
+			<thead>
+				<tr>
+					<th>序号</th>
+					<th>音频</th>
+					<th colspan="2">选项 <span class="needed">*</span></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>节奏 1</td>
+					<td><audio class="once" controls="" src="audio/task_1b_rhythm/01.wav"></audio></td>
+					<td><label><input type="radio" name="q11" value="相同" required=""> 相同</label></td>
+					<td><label><input type="radio" name="q11" value="不同" required=""> 不同</label></td>
+				</tr>
+				<tr>
+					<td>节奏 2</td>
+					<td><audio class="once" controls="" src="audio/task_1b_rhythm/02.wav"></audio></td>
+					<td><label><input type="radio" name="q12" value="相同" required=""> 相同</label></td>
+					<td><label><input type="radio" name="q12" value="不同" required=""> 不同</label></td>
+				</tr>
+				<tr>
+					<td>节奏 3</td>
+					<td><audio class="once" controls="" src="audio/task_1b_rhythm/03.wav"></audio></td>
+					<td><label><input type="radio" name="q13" value="相同" required=""> 相同</label></td>
+					<td><label><input type="radio" name="q13" value="不同" required=""> 不同</label></td>
+				</tr>
+				<tr>
+					<td>节奏 4</td>
+					<td><audio class="once" controls="" src="audio/task_1b_rhythm/04.wav"></audio></td>
+					<td><label><input type="radio" name="q14" value="相同" required=""> 相同</label></td>
+					<td><label><input type="radio" name="q14" value="不同" required=""> 不同</label></td>
+				</tr>
+				<tr>
+					<td>节奏 5</td>
+					<td><audio class="once" controls="" src="audio/task_1b_rhythm/05.wav"></audio></td>
+					<td><label><input type="radio" name="q15" value="相同" required=""> 相同</label></td>
+					<td><label><input type="radio" name="q15" value="不同" required=""> 不同</label></td>
+				</tr>
+				<tr>
+					<td>节奏 6</td>
+					<td><audio class="once" controls="" src="audio/task_1b_rhythm/06.wav"></audio></td>
+					<td><label><input type="radio" name="q16" value="相同" required=""> 相同</label></td>
+					<td><label><input type="radio" name="q16" value="不同" required=""> 不同</label></td>
+				</tr>
+				<tr>
+					<td>节奏 7</td>
+					<td><audio class="once" controls="" src="audio/task_1b_rhythm/07.wav"></audio></td>
+					<td><label><input type="radio" name="q17" value="相同" required=""> 相同</label></td>
+					<td><label><input type="radio" name="q17" value="不同" required=""> 不同</label></td>
+				</tr>
+				<tr>
+					<td>节奏 8</td>
+					<td><audio class="once" controls="" src="audio/task_1b_rhythm/08.wav"></audio></td>
+					<td><label><input type="radio" name="q18" value="相同" required=""> 相同</label></td>
+					<td><label><input type="radio" name="q18" value="不同" required=""> 不同</label></td>
+				</tr>
+				<tr>
+					<td>节奏 9</td>
+					<td><audio class="once" controls="" src="audio/task_1b_rhythm/09.wav"></audio></td>
+					<td><label><input type="radio" name="q19" value="相同" required=""> 相同</label></td>
+					<td><label><input type="radio" name="q19" value="不同" required=""> 不同</label></td>
+				</tr>
+				<tr>
+					<td>节奏 10</td>
+					<td><audio class="once" controls="" src="audio/task_1b_rhythm/10.wav"></audio></td>
+					<td><label><input type="radio" name="q20" value="相同" required=""> 相同</label></td>
+					<td><label><input type="radio" name="q20" value="不同" required=""> 不同</label></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div class="pagination-buttons">
+			<label for="page2">下一页</label>
+		</div>
+	</div>
+	<div class="page page2">
+		<div class="pagination-buttons">
+			<label for="page1">上一页</label>
+		</div>
+		<h2>任务 2: 终止式配对</h2>
+		<p>请先听 C 大调主和弦并学习 4 种终止式的名称和音响效果。</p>
+		<img src="./方言背景对音乐感知与音乐学习能力的影响：实验问卷_files/c.png" style="width: 25rem;">
+		<table>
+			<thead>
+				<tr>
+					<th scope="col">终止式</th>
+					<th scope="col">音频</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>C 大调主和弦</td>
+					<td><audio controls="" src="audio/task_2_cadence/learning/Tonic_C.wav"></audio></td>
+				</tr>
+				<tr>
+					<td>完全终止</td>
+					<td><audio controls="" src="audio/task_2_cadence/learning/V-I.wav"></audio></td>
+				</tr>
+				<tr>
+					<td>变格终止</td>
+					<td><audio controls="" src="audio/task_2_cadence/learning/IV-I.wav"></audio></td>
+				</tr>
+				<tr>
+					<td>导音终止</td>
+					<td><audio controls="" src="audio/task_2_cadence/learning/vii-I.wav"></audio></td>
+				</tr>
+				<tr>
+					<td>阻碍终止</td>
+					<td><audio controls="" src="audio/task_2_cadence/learning/V-vi.wav"></audio></td>
+				</tr>
+			</tbody>
+		</table>
+		<p>然后，将在 F♯ 大调上演奏的这 4 种终止式和其名称进行配对。</p>
+		<img src="./方言背景对音乐感知与音乐学习能力的影响：实验问卷_files/f.png" style="width: 25rem;">
+		<table>
+			<thead>
+				<tr>
+					<th scope="col">终止式 <span class="needed">*</span></th>
+					<th scope="col">音频</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>F♯ 大调主和弦</td>
+					<td><audio controls="" src="audio/task_2_cadence/testing/Tonic_F_sharp.wav"></audio></td>
+				</tr>
+				<tr>
+					<td>
+						<select name="cadence_sample_1" required="">
+							<option value="">请选择</option>
+							<option value="完全终止">完全终止</option>
+							<option value="变格终止">变格终止</option>
+							<option value="导音终止">导音终止</option>
+							<option value="阻碍终止">阻碍终止</option>
+						</select>
+					</td>
+					<td><audio controls="" src="audio/task_2_cadence/testing/01.wav"></audio></td>
+				</tr>
+				<tr>
+					<td>
+						<select name="cadence_sample_2" required="">
+							<option value="">请选择</option>
+							<option value="完全终止">完全终止</option>
+							<option value="变格终止">变格终止</option>
+							<option value="导音终止">导音终止</option>
+							<option value="阻碍终止">阻碍终止</option>
+						</select>
+					</td>
+					<td><audio controls="" src="audio/task_2_cadence/testing/02.wav"></audio></td>
+				</tr>
+				<tr>
+					<td>
+						<select name="cadence_sample_3" required="">
+							<option value="">请选择</option>
+							<option value="完全终止">完全终止</option>
+							<option value="变格终止">变格终止</option>
+							<option value="导音终止">导音终止</option>
+							<option value="阻碍终止">阻碍终止</option>
+						</select>
+					</td>
+					<td><audio controls="" src="audio/task_2_cadence/testing/03.wav"></audio></td>
+				</tr>
+				<tr>
+					<td>
+						<select name="cadence_sample_4" required="">
+							<option value="">请选择</option>
+							<option value="完全终止">完全终止</option>
+							<option value="变格终止">变格终止</option>
+							<option value="导音终止">导音终止</option>
+							<option value="阻碍终止">阻碍终止</option>
+						</select>
+					</td>
+					<td><audio controls="" src="audio/task_2_cadence/testing/04.wav"></audio></td>
+				</tr>
+			</tbody>
+		</table>
+		<div class="pagination-buttons">
+			<label for="page3">下一页</label>
+		</div>
+	</div>
+	<div class="page page3">
+		<div class="pagination-buttons">
+			<label for="page2">上一页</label>
+		</div>
+		<h2>任务 3: 音乐风格识别</h2>
+		<p>请聆听并学习 5 种音乐风格的鼓组节奏型和音色特点。</p>
+		<table>
+			<thead>
+				<tr>
+				<th scope="col">风格</th>
+				<th scope="col">音频样本</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Trap 陷阱</td>
+					<td><audio controls="" src="audio/task_3_drum_pattern/learning/trap.wav"></audio></td>
+				</tr>
+				<tr>
+					<td>Drill 钻头</td>
+					<td><audio controls="" src="audio/task_3_drum_pattern/learning/drill.wav"></audio></td>
+				</tr>
+				<tr>
+					<td>Drum &amp; Bass 鼓与贝斯</td>
+					<td><audio controls="" src="audio/task_3_drum_pattern/learning/drum_and_bass.wav"></audio></td>
+				</tr>
+				<tr>
+					<td>Reggaetton 雷击顿</td>
+					<td><audio controls="" src="audio/task_3_drum_pattern/learning/reggaeton.wav"></audio></td>
+				</tr>
+				<tr>
+					<td>R&amp;B 节奏蓝调</td>
+					<td><audio controls="" src="audio/task_3_drum_pattern/learning/r_and_b.wav"></audio></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<p>请将以下真实音乐片段与其风格配对：</p>
+		<table>
+			<colgroup>
+				<col style="width: 12em;">
+				<col>
+			</colgroup>
+			<thead>
+				<tr>
+					<th scope="col">风格 <span class="needed">*</span></th>
+					<th scope="col">真实片段音频</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<select name="style_sample_1" required="">
+							<option value="">请选择</option>
+							<option value="Trap">Trap 陷阱</option>
+							<option value="Drill">Drill 钻头</option>
+							<option value="Drum &amp; Bass">Drum &amp; Bass 鼓与贝斯</option>
+							<option value="Reggaetton">Reggaetton 雷击顿</option>
+							<option value="R&amp;B">R&amp;B 节奏蓝调</option>
+						</select>
+					</td>
+					<td><audio controls="" src="audio/task_3_drum_pattern/testing/01.wav"></audio></td>
+				</tr>
+				<tr>
+					<td>
+						<select name="style_sample_2" required="">
+							<option value="">请选择</option>
+							<option value="Trap">Trap 陷阱</option>
+							<option value="Drill">Drill 钻头</option>
+							<option value="Drum &amp; Bass">Drum &amp; Bass 鼓与贝斯</option>
+							<option value="Reggaetton">Reggaetton 雷击顿</option>
+							<option value="R&amp;B">R&amp;B 节奏蓝调</option>
+						</select>
+					</td>
+					<td><audio controls="" src="audio/task_3_drum_pattern/testing/02.wav"></audio></td>
+				</tr>
+				<tr>
+					<td>
+						<select name="style_sample_3" required="">
+							<option value="">请选择</option>
+							<option value="Trap">Trap 陷阱</option>
+							<option value="Drill">Drill 钻头</option>
+							<option value="Drum &amp; Bass">Drum &amp; Bass 鼓与贝斯</option>
+							<option value="Reggaetton">Reggaetton 雷击顿</option>
+							<option value="R&amp;B">R&amp;B 节奏蓝调</option>
+						</select>
+					</td>
+					<td><audio controls="" src="audio/task_3_drum_pattern/testing/03.wav"></audio></td>
+				</tr>
+				<tr>
+					<td>
+						<select name="style_sample_4" required="">
+							<option value="">请选择</option>
+							<option value="Trap">Trap 陷阱</option>
+							<option value="Drill">Drill 钻头</option>
+							<option value="Drum &amp; Bass">Drum &amp; Bass 鼓与贝斯</option>
+							<option value="Reggaetton">Reggaetton 雷击顿</option>
+							<option value="R&amp;B">R&amp;B 节奏蓝调</option>
+						</select>
+					</td>
+					<td><audio controls="" src="audio/task_3_drum_pattern/testing/04.wav"></audio></td>
+				</tr>
+				<tr>
+					<td>
+						<select name="style_sample_5" required="">
+							<option value="">请选择</option>
+							<option value="Trap">Trap 陷阱</option>
+							<option value="Drill">Drill 钻头</option>
+							<option value="Drum &amp; Bass">Drum &amp; Bass 鼓与贝斯</option>
+							<option value="Reggaetton">Reggaetton 雷击顿</option>
+							<option value="R&amp;B">R&amp;B 节奏蓝调</option>
+						</select>
+					</td>
+					<td><audio controls="" src="audio/task_3_drum_pattern/testing/05.wav"></audio></td>
+				</tr>
+			</tbody>
+		</table>
+
+
+	<button type="submit">提交</button>
+
+	<p>
+	如果您无法提交，可能是因为有些问题没有完成。在这种情况下，请 <label for="show-all-pages" class="show-all-pages-label">显示所有页面</label>，然后再点提交的时候，浏览器就能告诉你问题出在哪里了。
+	</p>
+
+</div>
+	</form></div>
+	
+	
+	<footer>
+		<p>
+		Content copyright (c) 2025 Tiffany Guo<br>
+		Web service copyright (c) 2025 <a href="https://runxiyu.org/">Runxi Yu</a><br>
+		The web service components are licensed under <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU AGPL version 3</a>.<br>
+		The page is served by <a href="https://forge.runxiyu.org/stuff/-/repos/melonsurvey/">Melon Survey</a>.
+		</p>
+		<details>
+			<summary>
+				Sources and copyright for audio files
+			</summary>
+			<p>
+			Style samples:
+				<a href="https://youtu.be/Hp4Lm60cEqQ">Drill</a>,
+				<a href="https://youtu.be/2nn_VWbFzKE">Drum &amp; Bass</a>,
+				<a href="https://youtu.be/gxOeTKuYZhs">R&amp;B</a>,
+				<a href="https://youtu.be/QfcEbTs1Omg">Reggaeton</a>,
+				<a href="https://youtube.com/shorts/NI-02MbaseQ?si=tYLN2Ago3VTONKcr">Trap</a>.<br>
+			Extract samples:
+				<a href="https://youtu.be/MNvbp5DtLAY">Drill</a>,
+				<a href="https://youtu.be/clW3Ci0gqjk">Drum &amp; Bass</a>,
+				<a href="https://youtu.be/fi1o4Z9CDMo">R&amp;B</a>,
+				<a href="https://youtu.be/hy5iBMDW21s">Reggaeton</a>,
+				<a href="https://youtu.be/vIE_JxM8zE0">Trap</a>.
+			</p>
+			<p>
+			We believe that the use of the above in this survey constitutes fair use under <a href="https://www.law.cornell.edu/uscode/text/17/107">17 U.S.C. § 107</a> section (1), and additionally (3) and (4) for the extra samples. See also <i>Campbell</i> v. <i>Acuff-Rose Music, Inc.</i>, 510 U.S. 569 (1994) and <i>Bill Graham Archives</i> v. <i>Dorling Kindersley Ltd.</i>, 448 F.3d 605 (2006). Please resolve any copyright disputes by emailing <a href="mailto:dmca@runxiyu.org">dmca@runxiyu.org</a>.
+			</p>
+			<p>
+			我们认为本问卷中对上述音频内容的使用，属于《中华人民共和国著作权法》（1990年9月7日第七届全国人大常委会第十五次会议通过，2001年10月27日、2010年2月26日、2020年11月11日经全国人大常委会修正）第二十四条规定的合理使用情形。我们使用音频内容为非商业、研究目的，未对原作品造成实质影响，亦未以此营利，且已尽合理方式注明来源链接，符合著作权合理使用原则。如有权利人认为本项目中使用了其享有版权的内容并构成侵权，请联系 <a href="mailto:dmca@runxiyu.org">dmca@runxiyu.org</a>。 </p>
+			<p></p>
+		</details>
+	</footer>
+
+
+</body></html>
